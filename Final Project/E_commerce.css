@@ -1,0 +1,244 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+.home 
+{
+/* text-align: center; */
+background-image: url(img/eCommerce-Website.jpg); 
+height: 600px;
+background-size: 100% 100%;
+}
+
+
+.nav{
+text-align: end;
+
+}
+.nav ul li{
+display: inline-block;
+margin: 5px 10px ;
+padding: 5px 5px;
+}
+
+.nav ul li .logo{
+height: 30px;
+position: absolute;
+top: 5px;
+left: 30px;
+
+}
+
+.nav ul li a{
+text-decoration: none;
+color: #ddd;
+font-size: 20px;
+margin-right: 20px;
+
+}
+
+.slider {
+
+    margin: 50px auto;
+    text-align: center;    
+    background-color: #ddd;
+    padding: 50px 10px;
+    width: 80%;
+    border-radius: 20px;
+    
+}
+
+.slider img{
+    padding: 20px;
+width: 450px;
+height: 450px;
+}
+
+.slider h2{
+
+    color: coral;
+}
+
+.O{
+color: #09c;
+font-size: x-large;
+font-style: italic;
+}
+
+.line
+{
+margin: auto;
+text-align: center;
+
+}
+.line1{
+    width: 60px;
+    height: 1px;
+    background-color: #ff305b;
+    text-align: center;
+    margin: 4PX auto;
+}
+.line2{
+    width: 120px;
+    height: 1px;
+    background-color: #ff305b;
+    text-align: center;
+    margin: 4px auto;
+
+}
+
+.line3{
+    width: 60px;
+    height: 1px;
+    background-color: #ff305b;
+    text-align: center;
+    margin: 4PX auto;
+}
+
+#products{
+    width: 80%;
+margin: 50px auto;
+padding: 15px 15px;
+text-align: center;
+background-color: #F7F6DC;
+border-radius: 20px;
+}
+
+#products button{
+width: 90px;
+margin: 30px auto;
+padding: 15px ;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+}
+ .images{
+
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 20px;
+} 
+.ADD
+{
+    display: inline-block;
+    width: 30%;
+
+}
+
+#images img
+{
+position: relative;
+width: 100%;
+height: 300px;
+padding: 20px;
+margin: auto;
+border-radius: 20px;
+}
+
+#images img:hover
+{
+    transform: scale(1.2);
+    background-color: rgba(0,0,0,0.7);
+    border: 3px black solid;
+    border-radius: 5px;
+}
+
+
+
+
+.ul_elec{
+    margin: auto;
+width: 100px;
+height: 150px;
+background-color: gray;
+
+}
+
+.ul_elec ul 
+{
+list-style: none;
+
+}
+/* .im_clothes, .im_skincare ,.im_cars{
+
+    display: none;
+} */
+
+
+#divcloth ,#divcars,#divskin
+{
+display: none;
+
+}
+
+
+.foot{
+width: 80%;
+margin: auto;
+text-align: center;
+background-color: #D2D79F;
+border: 8px solid blanchedalmond;
+border-radius: 20px;
+margin-bottom: 20px;
+}
+
+.foot h6
+{
+text-align: center;
+padding-top: 20px;    
+padding-bottom: 20px;
+font-size: x-large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    
+}
+
+.foot img
+{
+    width: 20%;
+    padding: 30px;
+    margin: auto;
+}
+
+
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 35px; 
+    right: 90px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgba(0, 0, 0,0.5); 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50%; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #09c; 
+  }
+
+#inner{
+width: 100px;
+height: 100px;
+background-image:url(img/Carticon.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+text-align: center;
+position: fixed;
+left: 0px;
+top: 580px;
+}
+
+
+
+
+
+
